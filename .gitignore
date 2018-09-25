@@ -26,8 +26,6 @@ bundles/specmate-ui-core/webcontent/COMMITHASH
 
 bundles/
 
-web/package\.json
-
 web/src/\.scannerwork/
 
 web/src/sonar-project\.properties
