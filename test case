@@ -1,0 +1,18 @@
+Title: Test specification from within the Cause effect graph - Create a test case
+
+Description: A user should be able to successfully create a new test case
+
+Precondition: the user must have created a cause effect graph (?)
+
+Assumption: a supported browser is being used
+
+Test Steps:
+
+    Navigate to [Requirement] / [Test Specification]   
+    Click the 'Create test case' button
+   
+
+Expected Result: A new test case should appear below the already existent test cases. Its 'Test Case' field should show 'New Test Case [date of creation] [time of creation]'
+
+
+Here’s what this test case would look like in TestLodge:
