@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="specmate-scheduler" increment="1537479219300">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="specmate-scheduler"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="specmate-scheduler"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.host" value="specmate-scheduler"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="com.specmate.common,com.specmate.scheduler.iterators"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="com.specmate.scheduler"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="com.specmate.scheduler.iterators"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="22152" type="Long"/>
+      <attribute name="url" value="generated/specmate-scheduler.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="6DAD44A1B0275F281753C601AC4FC34F87024D89548FD313DF643F8B63C8AF87"/>
+    </capability>
+    <capability namespace="bndtools.workspace">
+      <attribute name="bndtools.workspace" value="file:/home/fs/ecl_neo_mod/workspace"/>
+      <attribute name="project.path" value="/specmate-scheduler"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.specmate.common)(&amp;(version&gt;=1.0.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.specmate.scheduler.iterators))"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.8))"/>
+    </requirement>
+  </resource>
+</repository>

@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="specmate-persistency-cdo" increment="1537479218398">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="specmate-persistency-cdo"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="0.0.0.201809202133" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="0.0.0.201809202133" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="specmate-persistency-cdo"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="0.0.0.201809202133" type="Version"/>
+      <attribute name="osgi.wiring.host" value="specmate-persistency-cdo"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="com.specmate.administration.api,com.specmate.common,com.specmate.config.api,com.specmate.metrics,com.specmate.model.history,com.specmate.persistency,com.specmate.persistency.event,com.specmate.urihandler,org.eclipse.emf.cdo.common.commit,org.eclipse.emf.cdo.common.id,org.eclipse.emf.cdo.transaction,org.eclipse.emf.cdo.view,org.eclipse.emf.ecore,org.eclipse.emf.ecore.resource,org.eclipse.net4j.util.event,org.osgi.service.cm,org.osgi.service.event,org.osgi.service.log"/>
+      <attribute name="version" value="1.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="com.specmate.persistency.cdo.internal"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="com.specmate.persistency.cdo"/>
+    </capability>
+    <capability namespace="osgi.service">
+      <attribute name="objectClass" value="com.specmate.persistency.IHistoryProvider" type="List&lt;String&gt;"/>
+    </capability>
+    <capability namespace="osgi.service">
+      <attribute name="objectClass" value="com.specmate.persistency.IPersistencyService" type="List&lt;String&gt;"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="47890" type="Long"/>
+      <attribute name="url" value="generated/specmate-persistency-cdo.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="71DBE07D76C004A97710FD5C3F7DB373255637EB297196CB96B790EB4E32B598"/>
+    </capability>
+    <capability namespace="bndtools.workspace">
+      <attribute name="bndtools.workspace" value="file:/home/fs/ecl_neo_mod/workspace"/>
+      <attribute name="project.path" value="/specmate-persistency-cdo"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.specmate.administration.api)(&amp;(version&gt;=1.0.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.specmate.common)(&amp;(version&gt;=1.0.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.specmate.config.api)(&amp;(version&gt;=1.0.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.specmate.metrics)(&amp;(version&gt;=1.0.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.specmate.model.history)(&amp;(version&gt;=0.0.0)(!(version&gt;=1.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.specmate.model.support.util)(&amp;(version&gt;=0.0.0)(!(version&gt;=1.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.specmate.persistency)(&amp;(version&gt;=1.0.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.specmate.persistency.event)(&amp;(version&gt;=1.0.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.specmate.rest)(&amp;(version&gt;=1.0.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.specmate.urihandler)(&amp;(version&gt;=1.0.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.lang3)(&amp;(version&gt;=3.3.0)(!(version&gt;=4.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.cdo)(&amp;(version&gt;=4.5.0)(!(version&gt;=5.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.cdo.common)(&amp;(version&gt;=4.5.0)(!(version&gt;=5.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.cdo.common.branch)(&amp;(version&gt;=4.5.0)(!(version&gt;=5.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.cdo.common.commit)(&amp;(version&gt;=4.5.0)(!(version&gt;=5.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.cdo.common.id)(&amp;(version&gt;=4.5.0)(!(version&gt;=5.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.cdo.common.model)(&amp;(version&gt;=4.5.0)(!(version&gt;=5.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.cdo.common.revision)(&amp;(version&gt;=4.5.0)(!(version&gt;=5.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.cdo.common.revision.delta)(&amp;(version&gt;=4.5.0)(!(version&gt;=5.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.cdo.eresource)(&amp;(version&gt;=4.5.0)(!(version&gt;=5.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.cdo.net4j)(&amp;(version&gt;=4.1.0)(!(version&gt;=5.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.cdo.server.net4j)(&amp;(version&gt;=4.1.0)(!(version&gt;=5.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.cdo.session)(&amp;(version&gt;=4.5.0)(!(version&gt;=5.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.cdo.spi.common.model)(&amp;(version&gt;=4.5.0)(!(version&gt;=5.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.cdo.spi.common.revision)(&amp;(version&gt;=4.5.0)(!(version&gt;=5.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.cdo.transaction)(&amp;(version&gt;=4.5.0)(!(version&gt;=5.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.cdo.util)(&amp;(version&gt;=4.5.0)(!(version&gt;=5.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.cdo.view)(&amp;(version&gt;=4.5.0)(!(version&gt;=5.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.common.util))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.ecore))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.ecore.resource))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.spi.cdo)(&amp;(version&gt;=4.5.0)(!(version&gt;=5.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.net4j)(&amp;(version&gt;=4.5.0)(!(version&gt;=5.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.net4j.connector)(&amp;(version&gt;=4.5.0)(!(version&gt;=5.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.net4j.tcp)(&amp;(version&gt;=4.1.0)(!(version&gt;=5.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.net4j.util)(&amp;(version&gt;=3.6.0)(!(version&gt;=4.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.net4j.util.container)(&amp;(version&gt;=3.6.0)(!(version&gt;=4.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.net4j.util.event)(&amp;(version&gt;=3.6.0)(!(version&gt;=4.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.net4j.util.lifecycle)(&amp;(version&gt;=3.6.0)(!(version&gt;=4.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.net4j.util.om)(&amp;(version&gt;=3.6.0)(!(version&gt;=4.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.net4j.util.om.log)(&amp;(version&gt;=3.6.0)(!(version&gt;=4.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.net4j.util.om.trace)(&amp;(version&gt;=3.6.0)(!(version&gt;=4.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.net4j.util.security)(&amp;(version&gt;=3.6.0)(!(version&gt;=4.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.service.cm)(&amp;(version&gt;=1.5.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.service.event)(&amp;(version&gt;=1.3.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.service.log)(&amp;(version&gt;=1.3.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.extender">
+      <directive name="filter" value="(&amp;(osgi.extender=osgi.component)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.service">
+      <directive name="filter" value="(objectClass=com.specmate.administration.api.IStatusService)"/>
+      <directive name="effective" value="active"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.service">
+      <directive name="filter" value="(objectClass=com.specmate.config.api.IConfigService)"/>
+      <directive name="effective" value="active"/>
+    </requirement>
+    <requirement namespace="osgi.service">
+      <directive name="filter" value="(objectClass=com.specmate.metrics.IMetricsService)"/>
+      <directive name="effective" value="active"/>
+    </requirement>
+    <requirement namespace="osgi.service">
+      <directive name="filter" value="(objectClass=com.specmate.persistency.IChangeListener)"/>
+      <directive name="effective" value="active"/>
+      <directive name="resolution" value="optional"/>
+      <directive name="cardinality" value="multiple"/>
+    </requirement>
+    <requirement namespace="osgi.service">
+      <directive name="filter" value="(objectClass=com.specmate.persistency.IPackageProvider)"/>
+      <directive name="effective" value="active"/>
+    </requirement>
+    <requirement namespace="osgi.service">
+      <directive name="filter" value="(objectClass=com.specmate.urihandler.IURIFactory)"/>
+      <directive name="effective" value="active"/>
+    </requirement>
+    <requirement namespace="osgi.service">
+      <directive name="filter" value="(objectClass=org.osgi.service.cm.ConfigurationAdmin)"/>
+      <directive name="effective" value="active"/>
+    </requirement>
+    <requirement namespace="osgi.service">
+      <directive name="filter" value="(objectClass=org.osgi.service.event.EventAdmin)"/>
+      <directive name="effective" value="active"/>
+    </requirement>
+    <requirement namespace="osgi.service">
+      <directive name="filter" value="(objectClass=org.osgi.service.log.LogService)"/>
+      <directive name="effective" value="active"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.8))"/>
+    </requirement>
+  </resource>
+</repository>

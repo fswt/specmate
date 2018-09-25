@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="specmate-persistency-api" increment="1537479212542">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="specmate-persistency-api"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="0.0.0.201809202133" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="0.0.0.201809202133" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="specmate-persistency-api"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="0.0.0.201809202133" type="Version"/>
+      <attribute name="osgi.wiring.host" value="specmate-persistency-api"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="com.specmate.common,com.specmate.model.history,com.specmate.persistency.event,org.eclipse.emf.ecore,org.eclipse.emf.ecore.resource"/>
+      <attribute name="version" value="1.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="com.specmate.persistency"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.eclipse.emf.ecore,org.osgi.service.event"/>
+      <attribute name="version" value="1.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="com.specmate.persistency.event"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="com.specmate.persistency.connectors"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="16246" type="Long"/>
+      <attribute name="url" value="generated/specmate-persistency-api.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="76745B3F49ADD37E870A3B11B07C95419328883A11E414939967E0CBBDD4546E"/>
+    </capability>
+    <capability namespace="bndtools.workspace">
+      <attribute name="bndtools.workspace" value="file:/home/fs/ecl_neo_mod/workspace"/>
+      <attribute name="project.path" value="/specmate-persistency-api"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.specmate.common)(&amp;(version&gt;=1.0.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.specmate.model.history)(&amp;(version&gt;=0.0.0)(!(version&gt;=1.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.specmate.persistency.event)(&amp;(version&gt;=1.0.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.lang3)(&amp;(version&gt;=3.3.0)(!(version&gt;=4.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.ecore))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.ecore.resource))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.service.event)(&amp;(version&gt;=1.3.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.8))"/>
+    </requirement>
+  </resource>
+</repository>

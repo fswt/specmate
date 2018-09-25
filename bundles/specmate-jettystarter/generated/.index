@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="specmate-jettystarter" increment="1537479199615">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="specmate-jettystarter"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="0.0.0.201809202133" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="0.0.0.201809202133" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="specmate-jettystarter"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="0.0.0.201809202133" type="Version"/>
+      <attribute name="osgi.wiring.host" value="specmate-jettystarter"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="7361" type="Long"/>
+      <attribute name="url" value="generated/specmate-jettystarter.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="AFC6A8AAE5F58875470CA60D64E7573DC7F8955683B1A2AE28584539382729DA"/>
+    </capability>
+    <capability namespace="bndtools.workspace">
+      <attribute name="bndtools.workspace" value="file:/home/fs/ecl_neo_mod/workspace"/>
+      <attribute name="project.path" value="/specmate-jettystarter"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.equinox.http.jetty)(&amp;(version&gt;=1.1.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.framework)(&amp;(version&gt;=1.8.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.framework.startlevel)(&amp;(version&gt;=1.0.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.8))"/>
+    </requirement>
+  </resource>
+</repository>

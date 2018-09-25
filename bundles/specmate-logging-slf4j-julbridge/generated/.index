@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="specmate-logging-slf4j-julbridge" increment="1537479200301">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="specmate-logging-slf4j-julbridge"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="1.6.0.201809202133" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="1.6.0.201809202133" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="specmate-logging-slf4j-julbridge"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="1.6.0.201809202133" type="Version"/>
+      <attribute name="osgi.wiring.host" value="specmate-logging-slf4j-julbridge"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="3958" type="Long"/>
+      <attribute name="url" value="generated/specmate-logging-slf4j-julbridge.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="AB834BE754386C766451E7C44FEB23B6EB691DC7A7E1A1735FD22EDCB97D22D6"/>
+    </capability>
+    <capability namespace="bndtools.workspace">
+      <attribute name="bndtools.workspace" value="file:/home/fs/ecl_neo_mod/workspace"/>
+      <attribute name="project.path" value="/specmate-logging-slf4j-julbridge"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.framework)(&amp;(version&gt;=1.8.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.slf4j.bridge)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.8))"/>
+    </requirement>
+  </resource>
+</repository>

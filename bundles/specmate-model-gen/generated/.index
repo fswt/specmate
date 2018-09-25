@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="specmate-model-gen" increment="1537479203655">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="specmate-model-gen"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="0.0.0.201809202133" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="0.0.0.201809202133" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="specmate-model-gen"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="0.0.0.201809202133" type="Version"/>
+      <attribute name="osgi.wiring.host" value="specmate-model-gen"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.eclipse.emf.cdo,org.eclipse.emf.common.util,org.eclipse.emf.ecore"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="com.specmate.model.base"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="com.specmate.model.base,org.eclipse.emf.common.notify,org.eclipse.emf.common.notify.impl,org.eclipse.emf.ecore,org.eclipse.emf.ecore.util"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="com.specmate.model.base.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="com.specmate.model.administration,org.eclipse.emf.common.notify,org.eclipse.emf.common.notify.impl,org.eclipse.emf.ecore,org.eclipse.emf.ecore.util"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="com.specmate.model.administration.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="com.specmate.model.batch,org.eclipse.emf.common.notify,org.eclipse.emf.common.notify.impl,org.eclipse.emf.ecore,org.eclipse.emf.ecore.util"/>
+      <attribute name="version" value="1.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="com.specmate.model.batch.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="com.specmate.model.base,org.eclipse.emf.cdo,org.eclipse.emf.common.util,org.eclipse.emf.ecore"/>
+      <attribute name="version" value="1.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="com.specmate.model.batch"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.eclipse.emf.cdo,org.eclipse.emf.ecore"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="com.specmate.model.administration"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="com.specmate.usermodel,org.eclipse.emf.common.notify,org.eclipse.emf.common.notify.impl,org.eclipse.emf.ecore,org.eclipse.emf.ecore.util"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="com.specmate.usermodel.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="com.specmate.model.base,org.eclipse.emf.common.util,org.eclipse.emf.ecore"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="com.specmate.model.requirements"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.eclipse.emf.cdo,org.eclipse.emf.common.util,org.eclipse.emf.ecore"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="com.specmate.usermodel"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="com.specmate.model.base,com.specmate.model.requirements,org.eclipse.emf.common.notify,org.eclipse.emf.common.notify.impl,org.eclipse.emf.ecore,org.eclipse.emf.ecore.util"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="com.specmate.model.requirements.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="com.specmate.model.base,com.specmate.model.processes,org.eclipse.emf.common.notify,org.eclipse.emf.common.notify.impl,org.eclipse.emf.ecore,org.eclipse.emf.ecore.util"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="com.specmate.model.processes.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="com.specmate.model.base,org.eclipse.emf.ecore"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="com.specmate.model.processes"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="com.specmate.model.base,com.specmate.model.testspecification,org.eclipse.emf.common.notify,org.eclipse.emf.common.notify.impl,org.eclipse.emf.ecore,org.eclipse.emf.ecore.util"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="com.specmate.model.testspecification.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="com.specmate.model.base,org.eclipse.emf.common.util,org.eclipse.emf.ecore"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="com.specmate.model.testspecification"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.eclipse.emf.cdo,org.eclipse.emf.common.util,org.eclipse.emf.ecore"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="com.specmate.model.history"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="com.specmate.model.history,org.eclipse.emf.common.notify,org.eclipse.emf.common.notify.impl,org.eclipse.emf.ecore,org.eclipse.emf.ecore.util"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="com.specmate.model.history.util"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="351210" type="Long"/>
+      <attribute name="url" value="generated/specmate-model-gen.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="E8EAF2A6A63E1CAC72E7A12CBC8DCA434EFEEA4E07F31CFE34C63E3E40238C54"/>
+    </capability>
+    <capability namespace="bndtools.workspace">
+      <attribute name="bndtools.workspace" value="file:/home/fs/ecl_neo_mod/workspace"/>
+      <attribute name="project.path" value="/specmate-model-gen"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.cdo)(&amp;(version&gt;=4.5.0)(!(version&gt;=5.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.common.notify))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.common.notify.impl))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.common.util))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.ecore))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.ecore.impl))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.ecore.plugin))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.ecore.resource))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.ecore.util))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.eclipse.emf.internal.cdo)(&amp;(version&gt;=4.5.0)(!(version&gt;=5.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.8))"/>
+    </requirement>
+  </resource>
+</repository>
