@@ -1,7 +1,0 @@
-organization=fswt-github
-projectKey=fswt_specmate
-serverUrl=https://sonarcloud.io
-serverVersion=7.4.0.17063
-dashboardUrl=https://sonarcloud.io/dashboard?id=fswt_specmate
-ceTaskId=AWXpIlC0FozSdSzRWiLe
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWXpIlC0FozSdSzRWiLe
