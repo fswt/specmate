@@ -1,8 +1,0 @@
-Private-Package: com.specmate.config.internal
--buildpath: \
-	org.eclipse.osgi.services,\
-	specmate-common;version=latest,\
-	org.apache.commons.lang3,\
-	osgi.core,\
-	specmate-config-api;version=latest
-Include-Resource: config=config

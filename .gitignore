@@ -23,3 +23,11 @@ hs_err_pid*
 bundles/specmate-std-env/workspace/.metadata/.log
 bundles/specmate-ui-core/webcontent/COMMITHASH
 /cnf/bin/
+
+bundles/
+
+web/package\.json
+
+web/src/\.scannerwork/
+
+web/src/sonar-project\.properties

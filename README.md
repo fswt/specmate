@@ -2,7 +2,7 @@
 
 ## How to set up your development environment
 1. Install Eclipse Neon.2 Modeling Tools
-2. From the Eclipse Marketplace, install 
+2. From the Eclipse Marketplace, install
     - bndtools 3.3
     - Acceleo 3.6
 3. Install node js version 8
@@ -19,3 +19,5 @@ See ```web/README.md```
 Cross-browser Testing Platform and Open Source <3 Provided by [![Sauce Labs](Sauce-Labs_Horiz_Red-Grey_RGB_200x28.png)][homepage]
 
 [homepage]: https://saucelabs.com
+
+waleed test

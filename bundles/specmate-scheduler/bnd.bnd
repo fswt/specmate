@@ -1,4 +1,0 @@
-Export-Package: \
-	com.specmate.scheduler,\
-	com.specmate.scheduler.iterators
--buildpath: specmate-common;version=latest
