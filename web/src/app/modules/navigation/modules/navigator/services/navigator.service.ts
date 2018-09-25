@@ -140,8 +140,8 @@ export class NavigatorService {
             return Promise.reject(this.translate.instant('navigationWasNotPerformed'));
         });
     }
-
-    private handleBrowserBackForwardButton(navigatedTo: String): void {
+    // changed the String to string
+    private handleBrowserBackForwardButton(navigatedTo: string): void {
         let previous: IContainer = this.previousElement;
         let next: IContainer = this.nextElement;
 
