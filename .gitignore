@@ -26,3 +26,6 @@ bundles/specmate-ui-core/webcontent/COMMITHASH
 
 
 bundles/
+/web/.vscode
+/web/.scannerwork
+/web/src/sonar-project
