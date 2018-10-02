@@ -19,6 +19,6 @@ addons:
   sonarcloud:
     organization: "fswt-github" # the key of the org you chose at step #3
 script:
-  - cd ../web && mocha -r ts-node/register -r ignore-styles src/**/*.spec.ts && npm run build-prod
+  - cd ../web && mocha -r ts-node/register -r ignore-styles src/**/*.spec.ts
   - cd ..  
   - sonar-scanner -Dsonar.projectKey=fswt_specmate -Dsonar.sources=/home/travis/build/fswt/specmate/web/src
