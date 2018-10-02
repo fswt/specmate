@@ -11,7 +11,7 @@ before_install:
 install:
 - cd web && npm run init
 script:
-- cd ../web && npm run build-prod
+- cd ../web && mocha -r ts-node/register -r ignore-styles src/**/*.spec.ts && npm run build-prod
 - cd ..
 after_success:
 - git status
