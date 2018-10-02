@@ -1,27 +1,24 @@
 dist: trusty
 sudo: false
 language:
-- node_js
+  - node_js
 node_js:
-- '7'
+  - '7'
 env:
-- TERM=dumb
+  - TERM=dumb
 before_install:
-- git fetch --unshallow
+  - git fetch --unshallow
 install:
-- cd web && npm run init
-script:
-- cd ../web && mocha -r ts-node/register -r ignore-styles src/**/*.spec.ts && npm run build-prod
-- cd ..
+  - cd web && npm run init
 after_success:
-- git status
+  - git status
 cache:
   directories:
   - cnf/cache/stable
-
 addons:
   sonarcloud:
     organization: "fswt-github" # the key of the org you chose at step #3
 script:
-  # other script steps might be done before running the actual analysis
+  - cd ../web && mocha -r ts-node/register -r ignore-styles src/**/*.spec.ts && npm run build-prod
+  - cd ..  
   - sonar-scanner -Dsonar.projectKey=fswt_specmate -Dsonar.sources=/home/travis/build/fswt/specmate/web/src
