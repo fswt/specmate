@@ -17,7 +17,7 @@ describe('Objects Specmate', () => {
         const o1: IContainer = { ___nsuri:'', url: '12', className: 'string', id : '1', name : 'weeds', description : 'this is weeds' };
         const o2 = { name: 'd' };
         expect(function () {Objects.changedFields(o1, o2); })
-        .to.throw('Types do not match! Tried to get changed fields from unmatching tyes.');
+        .to.throw('Types do not match! Tried to get changed fields from unmatching types.');
     });
     it('should return array if the objects has the changed fields', () => {
         const o1: IContainer = { ___nsuri:'', url: '12', className: 'string', id : '1', name : 'weeds', description : 'this is weeds' };
