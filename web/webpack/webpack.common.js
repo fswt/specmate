@@ -28,7 +28,7 @@ module.exports = {
                 test: /\.ts$/,
                 loaders: [{
                     loader: 'awesome-typescript-loader',
-                    options: { configFileName: helpers.root('src', 'tsconfig.json') }
+                    options: { configFileName: helpers.root('tsconfig.json') }
                 }, 'angular2-template-loader']
             },
             {
@@ -100,7 +100,7 @@ module.exports = {
     plugins: [
         new webpack.ContextReplacementPlugin(/angular(\\|\/)core(\\|\/)@angular/, helpers.root('../src'), {}),
         new webpack.ContextReplacementPlugin(/\@angular(\\|\/)core(\\|\/)esm5/, helpers.root('../src'), {}),
-        new webpack.optimize.CommonsChunkPlugin({ name: ['specmate', 'vendor', 'polyfills', 'assets'] }),
+        //new webpack.optimize.CommonsChunkPlugin({ name: ['specmate', 'vendor', 'polyfills', 'assets'] }),
         new HtmlWebpackPlugin({
             template: 'src/index.html',
             favicon: 'src/assets/img/favicon.ico'
