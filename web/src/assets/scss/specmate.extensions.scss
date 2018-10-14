@@ -119,3 +119,36 @@ textarea:focus,
 .badge {
     font-size: 100%;
 }
+
+.login-background-container{
+  height: 100vh;
+  width: 100vw;
+}
+
+.send-to-back{
+  position: absolute;
+  z-index: -10;
+}
+
+.login-background-image{
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
+  /* center */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-form{
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 16px;
+}
+
+.login-top-space{
+  height: 100vh;
+  padding-top: 64px;
+}
