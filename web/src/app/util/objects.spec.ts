@@ -11,7 +11,7 @@ describe('Objects Specmate', () => {
         const o2: IContainer = undefined;
         expect(Objects.changedFields(o1, o2)).to.be.undefined;
     });
-    it('should throw an new error if the objects type is differnt', () => {
+    it('should throw an new error if the objects type is different', () => {
         const o1: IContainer = { ___nsuri: 'string', url: '12', className: 'string',
             id : '1', name : 'weeds', description : 'this is weeds' };
         const o2 = { name: 'd' };
